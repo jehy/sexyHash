@@ -29,7 +29,7 @@ describe('Short Hash Encoder', ()=>{
       const data = md5(`Some data ${i}`);
       const encoded = hasher.encode(data);
       const decoded = hasher.decode(encoded, 32);
-      assert.equal(decoded, data);
+      assert.equal(decoded, data, `${data} was not encoded correctly`);
     }
   });
 });
