@@ -1,0 +1,24 @@
+{
+  "name": "sexyhash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit --timeout 10000"
+  },
+  "author": "Jehy",
+  "license": "MIT",
+  "dependencies": {
+    "bases": "git+https://github.com/jehy/bases.js.git#885da834800219feba300c6539760b5a955d62d1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^6.1.4"
+  }
+}
